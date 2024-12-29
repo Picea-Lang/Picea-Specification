@@ -1,0 +1,3 @@
+= Picea Programming Language Specification
+
+This repository contains the specification of Picea 0.9.0.

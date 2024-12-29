@@ -1,0 +1,3 @@
+= Standard Library
+
+The __Standard Library__ are a set of Picea modules with functions to accelerate the workflow of the developers.

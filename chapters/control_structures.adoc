@@ -1,0 +1,18 @@
+= Control Structures
+
+The __control structures__ are expressions that manage the control flow
+of the shader program into a function.
+
+== Iterative control structures
+
+=== __for__ statement
+
+=== __while__ statement
+
+=== __continue__ - __break__ statements
+
+== Choice control structures
+
+=== __if__ - __else if__ - __else__ statements
+
+=== __select__ statement

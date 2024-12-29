@@ -2,23 +2,33 @@
 .version: 0.1.0
 .stage:   vertex
 
-structure BufferInfo{
+structure BufferInfo {
     matrix<float>[4,4] model;
     matrix<float>[4,4] projection;
     matrix<float>[4,4] view;
 }
+
+structure Light {
+    scalar<float> intensity;
+    vector<float>[3] direction; 
+}
+
+trait LightFuncs impl Light {
+    # ...
+}
+
 
 # comment
 ##  this a 
 multi-line comment ##
 
 from (pushConstant) vector<float>[3] vColor;
-from (set:0, binding: 0)   BufferInfo info;
+from (set: 0, binding: 0)  BufferInfo info;
 in   (location: 0)  vector<float>[3] inPos;
 out  (location: 0)  vector<float>[3] fragColor;
 out  (pPosition) pos;
 
-void main(){
+void main() {
     pos = info.projection * info.view * info.model * vector<float>[4](inPos, 1.0);
     fragColor = vector<float>[4](vColor, 0.5);
 }

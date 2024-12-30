@@ -1,18 +1,67 @@
-= Control Structures
+= Control Flow Structures
 
-The __control structures__ are expressions that manage the control flow
-of the shader program into a function.
+== Choice
 
-== Iterative control structures
+=== ``if``-``else`` statement
 
-=== __for__ statement
+Syntax:
 
-=== __while__ statement
-
-=== __continue__ - __break__ statements
-
-== Choice control structures
-
-=== __if__ - __else if__ - __else__ statements
+  if cond stmt1 else stmt2
 
 === __select__ statement
+
+== Iteration
+
+=== `loop` statement
+
+Syntax:
+
+  loop {
+    stmt1;
+    stmt2;
+    ...
+  }
+
+Semantics:
+
+The statements in the body are executed in an infinite loop.
+
+=== `break` and `continue` statements
+
+Syntax:
+
+  break;
+
+  continue;
+
+Semantics:
+
+Relative to the scope of the smallest loop that contains either of them,
+a `break` statement jumps to the first instruction after and
+a `continue` statement returns to the first instruction.
+The presence of either not inside a loop constitutes a malformed program.
+
+=== `while` statement
+
+Syntax:
+
+  while cond {
+    stmt1;
+    stmt2;
+    ...
+  }
+
+Semantics:
+
+The statements in the body are executed until the expression `cond`
+evaluates to `false`.
+The above may be deemed as syntactic sugar for the following:
+
+  loop {
+    if !cond {
+      break;
+    }
+    stmt1;
+    stmt2;
+    ...
+  }

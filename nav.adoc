@@ -13,4 +13,4 @@ chapters/io.adoc
 chapters/memory_control.adoc
 chapters/stdlib.adoc
 Extensions
-chapters/extensions/raytracing.adoc
+    chapters/extensions/raytracing.adoc

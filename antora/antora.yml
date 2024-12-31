@@ -6,6 +6,12 @@ asciidoc:
   attributes:
     source-language: asciidoc@
     table-caption: false
-    chapters: 'chapters/'
+    chapters: ''
 nav:
 - modules/ROOT/nav.adoc
+content:
+  sources:
+    - url: .
+      start_path: antora/modules/ROOT
+    - url: .
+      start_path: chapters

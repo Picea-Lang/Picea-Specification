@@ -1,19 +1,19 @@
 
 :chapters:
 
-* xref:{chapters}introduction.adoc[]
-* xref:{chapters}modules.adoc[]
-* xref:{chapters}syntax.adoc[]
-* xref:{chapters}control_structures.adoc[]
-* xref:{chapters}variables.adoc[]
-* xref:{chapters}datatypes.adoc[]
-* xref:{chapters}sys_variables.adoc[]
-* xref:{chapters}structures.adoc[]
-* xref:{chapters}operators.adoc[]
-* xref:{chapters}functions.adoc[]
-* xref:{chapters}attributes.adoc[]
-* xref:{chapters}io.adoc[]
-* xref:{chapters}memory_control.adoc[]
-* xref:{chapters}stdlib.adoc[]
+* introduction.adoc
+* modules.adoc
+* syntax.adoc
+* control_structures.adoc
+* variables.adoc
+* datatypes.adoc
+* sys_variables.adoc
+* structures.adoc
+* operators.adoc
+* functions.adoc
+* attributes.adoc
+* io.adoc
+* memory_control.adoc
+* stdlib.adoc
 * Extensions
-** xref:{chapters}extensions/raytracing.adoc[]
+** extensions/raytracing.adoc

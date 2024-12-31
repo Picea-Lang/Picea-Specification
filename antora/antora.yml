@@ -1,7 +1,7 @@
 name: picea-spec
 title: Picea Specification
 version: 1.5.6
-start_page: introduction.adoc
+start_page: index.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@

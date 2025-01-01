@@ -13,4 +13,4 @@ ext:
   collector:
     scan:
       dir: chapters
-      into: modules/ROOT/pages
+      into: modules/ROOT/chapters

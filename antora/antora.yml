@@ -9,9 +9,8 @@ asciidoc:
     chapters: ''
 nav:
 - modules/ROOT/nav.adoc
-content:
-  sources:
-    - url: .
-      start_path: antora/modules/ROOT
-    - url: .
-      start_path: chapters
+ext:
+  collector:
+    scan:
+      dir: chapters
+      into: modules/ROOT/pages

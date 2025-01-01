@@ -1,19 +1,19 @@
 
 :chapters:
 
-* introduction.adoc
-* modules.adoc
-* syntax.adoc
-* control_structures.adoc
-* variables.adoc
-* datatypes.adoc
-* sys_variables.adoc
-* structures.adoc
-* operators.adoc
-* functions.adoc
-* attributes.adoc
-* io.adoc
-* memory_control.adoc
-* stdlib.adoc
+* include::chapters$introduction.adoc[]
+* include::chapters$modules.adoc[]
+* include::chapters$syntax.adoc[]
+* include::chapters$control_structures.adoc[]
+* include::chapters$variables.adoc[]
+* include::chapters$datatypes.adoc[]
+* include::chapters$sys_variables.adoc[]
+* include::chapters$structures.adoc[]
+* include::chapters$operators.adoc[]
+* include::chapters$functions.adoc[]
+* include::chapters$attributes.adoc[]
+* include::chapters$io.adoc[]
+* include::chapters$memory_control.adoc[]
+* include::chapters$stdlib.adoc[]
 * Extensions
-** extensions/raytracing.adoc
+** include::chapters$extensions/raytracing.adoc[]

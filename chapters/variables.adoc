@@ -1,16 +1,18 @@
 = Variables
 
-A _variable_ is a reserved space in the memory to store information. +
-Each _variable_ has a _data type_, also, a _data type_ is a the format of
-the information stored in the _variable_. +
-Each _variable_ has a _identifier_, the _identifier_ *must* be unique into
-the _variable context_. +
-_Variables_ *can* be initialized when it's declared, also, _variables_ *must* be initialized to be read. +
+A *variable* is a relation between a symbol and a non-__unit__ value.
+A *value* is either _unit_ (cf. _void_ in C-like languages) or some information
+stored on memory.
+A *symbol* or *identifier* is an ASCII alphabetical value followed by a
+possibly empty sequence of ASCII values which are either alphanumeric or
+underscore.
+A variable may be declared without an initializer expression, but its value may
+not be read before assignment.
 
-.Syntax 
---
+.Syntax
+```
 # uninitialized variable +
 DataType <identifier>; +
 # initialized variable +
 DataType <identifier> = ...; +
---
+```

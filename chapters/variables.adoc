@@ -1,0 +1,16 @@
+= Variables
+
+A _variable_ is a reserved space in the memory to store information. +
+Each _variable_ has a _data type_, also, a _data type_ is a the format of
+the information stored in the _variable_. +
+Each _variable_ has a _identifier_, the _identifier_ *must* be unique into
+the _variable context_. +
+_Variables_ *can* be initialized when it's declared, also, _variables_ *must* be initialized to be read. +
+
+.Syntax 
+--
+# uninitialized variable +
+DataType <identifier>; +
+# initialized variable +
+DataType <identifier> = ...; +
+--

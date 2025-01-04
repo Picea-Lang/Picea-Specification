@@ -1,3 +1,25 @@
 = Picea Programming Language Specification
 
+== Table of Contents
+
+* xref:chapters/introduction.adoc [Introduction]
+* xref:chapters/syntax.adoc[Syntax]
+* xref:chapters/modules.adoc[Modules]
+* xref:chapters/datatypes.adoc[Data Types]
+* xref:chapters/variables.adoc[Variables]
+* xref:chapters/sys_variables.adoc[System Variables]
+* xref:chapters/structures.adoc[Structures]
+* xref:chapters/control_structures.adoc[Control Structures]
+* xref:chapters/operators.adoc[Operators]
+* xref:chapters/functions.adoc[Functions]
+* xref:chapters/attributes.adoc[Attributes]
+* xref:chapters/io.adoc[Input/Output]
+* xref:chapters/memory_control.adoc[Memory Control]
+* Standard Library
+** xref:chapters/stdlib/introduction.adoc[Introduction to the Standard Library]
+* Extensions
+** xref:chapters/extensions/raytracing.adoc[]
+** xref:chapters/extensions/rayquery.adoc[]
+** xref:chapters/extensions/quad_control.adoc[]
+
 This repository contains the specification of Picea 0.9.0.

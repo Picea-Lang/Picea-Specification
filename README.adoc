@@ -26,6 +26,7 @@
 
 This repository contains the specification of Picea Shader Language 0.9.0.
 Picea takes inspiration of:
+
 * Rust
 * C++
 * GLSL

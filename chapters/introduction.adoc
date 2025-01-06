@@ -1,1 +1,10 @@
 = Introduction
+
+Picea is a high-level shading language, intended as a DSL that facilitates the
+process of writing shaders in SPIR-V.
+
+== Goals
+
+== Versioning
+
+== Design principles

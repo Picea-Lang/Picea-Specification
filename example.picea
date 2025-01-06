@@ -2,6 +2,8 @@
 .version: 0.1.0
 .stage:   vertex
 
+module PiceaSample;
+
 structure BufferInfo {
     matrix<float>[4,4] model;
     matrix<float>[4,4] projection;
@@ -13,7 +15,11 @@ structure Light {
     vector<float>[3] direction; 
 }
 
-trait LightFuncs impl Light {
+interface LightFuncs {
+    # ...
+}
+
+impl LightFuncs for Light {
     # ...
 }
 
@@ -22,13 +28,14 @@ trait LightFuncs impl Light {
 ##  this a 
 multi-line comment ##
 
-from (pushConstant) vector<float>[3] vColor;
+from (pushConstant) vector<float>[3] vColor; ##this is a memory layout##
 from (set: 0, binding: 0)  BufferInfo info;
 in   (location: 0)  vector<float>[3] inPos;
 out  (location: 0)  vector<float>[3] fragColor;
-out  (pPosition) pos;
 
+[@sv_position : pos] # an attribute
 void main() {
+    let notUsed : scalar<uint32> = 0;
     pos = info.projection * info.view * info.model * vector<float>[4](inPos, 1.0);
     fragColor = vector<float>[4](vColor, 0.5);
 }

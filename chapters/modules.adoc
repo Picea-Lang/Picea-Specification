@@ -1,23 +1,33 @@
 = Modules
 
-A __Module__ contains __memory layouts__, __functions__, _structures_, _interfaces_, _implementations_ and __variables__. +
+A __Module__ contains __memory layouts__ or _component_ +
 Each __Module__ *must* have an _identifier_ and at least one __entry point__.
 
 _Syntax:_
 ```
 module <identifier>;
 ```
+
+== Accesible Components
+
+An _accesible component_ is a _function_, _structure_, _interface_, _implementation_ or a _variable_  with _pub_ keyword contained into a _module_.
+
+_Syntax_:
+```
+pub <component> <component_identifier> #...
+```
+
 == Importing Modules
 
 _Import_ is the operation of allow the use of content of another _module_.
 
 _Syntax:_
 ```
-import module <identifier>;
+import module <module_identifier>;
 ```
 == Accessing to Modules
 _Access_ is the operation of use content of another _module_. +
-_Access_ is available for  __functions__, _structures_, _interfaces_, _implementations_ and __variables__ *only*. +
+_Access_ is available for _accessible components_ *only*. +
 _Access_ to _module components_ is available to _imported modules_ *only*.
 
 _Syntax:_

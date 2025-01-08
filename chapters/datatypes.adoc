@@ -1,1 +1,3 @@
 = Data Types
+
+A _Data type_ is the _template_ that 

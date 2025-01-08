@@ -5,6 +5,7 @@
 * xref:chapters/introduction.adoc [Introduction]
 * xref:chapters/syntax.adoc[Syntax]
 * xref:chapters/modules.adoc[Modules]
+* xref:chapters/formats.adoc[Formats]
 * xref:chapters/datatypes.adoc[Data Types]
 * xref:chapters/variables.adoc[Variables]
 * xref:chapters/interfaces.adoc[Interfaces]

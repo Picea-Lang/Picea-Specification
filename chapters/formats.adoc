@@ -1,0 +1,31 @@
+= Formats
+
+_Format_ is the layout that especifies how the data are stored into memory.
+
+== Formats:
+
+[cols="1,1"]
+|===
+|Format |Description
+
+|bool
+|
+
+// |int
+// |Cell in column 2, row 2
+
+// |uint
+// |Cell in column 2, row 3 
+
+// |float
+// |Cell in column 2, row 3 
+
+// |ufloat
+// |Cell in column 2, row 3 
+
+// |normal
+// |Cell in column 2, row 3 
+
+// |unormal
+// |Cell in column 2, row 3 
+|===
